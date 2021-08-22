@@ -1,0 +1,18 @@
+{
+    "name": "jllopezv/livewire-dropdown",
+    "description": "Livewire Dropdown Component",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jllopezv\\LivewireDropdown\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jllopezv",
+            "email": "jllopezvicente@gmail.com"
+        }
+    ],
+    "require": {}
+}
