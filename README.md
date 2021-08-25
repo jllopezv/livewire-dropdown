@@ -100,7 +100,9 @@ Render the component
 ## Options
 
 `showOnTop`: `true` Show content box on top, `false` Show content box on bottom
+
 `showCaret`: `true` Show caret of component, `false` doesn't show it
+
 `defaultValue`: Set the default value of the component
 
 ## Events 
