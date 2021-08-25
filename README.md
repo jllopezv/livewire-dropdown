@@ -129,7 +129,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information.
 
 ## Credits
 
-- [José Luís López](https://github.com/jllopezv)
+- [José Luís López] (https://github.com/jllopezv)
 
 
 ## License
