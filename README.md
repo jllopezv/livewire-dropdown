@@ -12,13 +12,10 @@ composer require jllopezv/livewire-dropdown
 
 ### Requirements
 
-Livewire `livewire/livewire` (https://laravel-livewire.com/).
-
-TailwindCSS (https://tailwindcss.com/)
-
-AlpineJS (https://alpinejs.dev/)
-
-Fontawesome https://fontawesome.com/
+Livewire `livewire/livewire` (https://laravel-livewire.com/) for the main component.
+TailwindCSS (https://tailwindcss.com/) for the style of the component.
+AlpineJS (https://alpinejs.dev/) for the dinamic behavior of the component.
+Fontawesome https://fontawesome.com/ for the caret of the component. Feel free to change for the icon you want.
 
 ### Usage
 
@@ -95,10 +92,31 @@ Render the component
 
 ```blade
 @livewire('livewire-dropdown', [
-    'name'  =>  'dropdown1'
+    'name'  =>  'dropdown1'  // Mandatory
     // options
 ])
 ```
+
+## Options
+
+`showOnTop`: `true` Show content box on top, `false` Show content box on bottom
+`showCaret`: `true` Show caret of component, `false` doesn't show it
+`defaultValue`: Set the default value of the component
+
+## Events 
+
+`componentname` Name of your component
+
+### Updated
+`componentname.updated`: Fired when value of component change
+`componentname.setValue`: Set value of component. 
+You can set value of component using this code:
+
+```php
+ <div onclick="Livewire.emit('dropdown1.setValue','option1',false)">OPTION 1</div>
+```
+
+where `downdown1.setValue` is the name of the component, `option1` is the value to change and `false` is for not emit updated event.
 
 
 ### Changelog
