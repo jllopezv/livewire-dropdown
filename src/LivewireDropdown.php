@@ -37,7 +37,7 @@ class LivewireDropdown extends Component
     {
         $this->name = $name;
 
-        $this->selectedDefaultValue = trans('liveview-dropdown::messages.select_an_option');
+        $this->selectedDefaultValue = trans('livewire-dropdown.select_an_option');
         $this->selectedContent = $this->selectedDefaultValue;
         $this->theme = $this->theme();
 
