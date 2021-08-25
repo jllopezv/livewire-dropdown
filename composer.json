@@ -1,6 +1,11 @@
 {
     "name": "jllopezv/livewire-dropdown",
     "description": "Livewire Dropdown Component",
+    "keywords": [
+        "jllopezv",
+        "livewire-dropdown"
+    ],
+    "homepage": "https://github.com/jllopezv/livewire-dropdown",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -15,6 +20,8 @@
         }
     ],
     "require": {
+        "php": "^7.2|^7.3|^7.4|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
         "livewire/livewire": "^2.5"
     },
     "extra": {
