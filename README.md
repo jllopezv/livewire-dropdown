@@ -107,10 +107,11 @@ Render the component
 
 ## Events 
 
-`componentname` Name of your component
+Using `componentname` Name of your component
 
 ### Updated
 `componentname.updated`: Fired when value of component change
+### setValue
 `componentname.setValue`: Set value of component. 
 You can set value of component using this code:
 
