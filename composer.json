@@ -14,5 +14,14 @@
             "email": "jllopezvicente@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "livewire/livewire": "^2.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jllopezv\\LivewireDropdown\\LivewireDropdownServiceProvider"
+            ]
+        }
+    }
 }
